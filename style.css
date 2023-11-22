@@ -68,7 +68,7 @@
   .down-board .row-2 .navAndCall .callUs {
     width: 40px;
     height: 35px;
-    background-color: #00730C;
+    background-color: #00730c;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -80,6 +80,163 @@
   .down-board .row-2 .navAndCall .third {
     width: 30px;
     height: 30px;
+  }
+  .hero {
+    width: 375px;
+    height: 719px;
+    background: var(--main-gradient-1-color, linear-gradient(40deg, rgba(0, 115, 12, 0.81) -22.86%, rgba(251, 246, 238, 0) 116.18%));
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  .hero .container_2 {
+    display: flex;
+    justify-content: center;
+  }
+  .hero .container_2 .hero-imfo {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .hero .container_2 .hero-imfo .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .hero .container_2 .hero-imfo .logo .plant {
+    display: flex;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .hero .container_2 .hero-imfo .logo .perfect {
+    font-size: 28px;
+  }
+  .hero .container_2 .hero-imfo .logo .perfect span {
+    color: #00730c;
+  }
+  .hero .container_2 .hero-imfo .logo .info {
+    color: #676767;
+    font-size: 18px;
+  }
+  .hero .container_2 .hero-imfo .tooButton {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+  }
+  .hero .container_2 .hero-imfo .tooButton .quate {
+    width: 175px;
+    height: 50px;
+    background-color: #00730c;
+    color: white;
+    border-radius: 5px;
+  }
+  .hero .container_2 .hero-imfo .tooButton .itworks {
+    width: 177px;
+    font-size: 18px;
+    color: #676767;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .hero .container_2 .hero-imfo .thriDott {
+    display: flex;
+    gap: 10px;
+  }
+  .hero .container_2 .hero-imfo .thriDott div {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: linear-gradient(73deg, #00730C -83.5%, #F9F9F9 93.84%);
+  }
+  .hero .container_2 .hero-imfo .thriDott p {
+    width: 89px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+  }
+  .service {
+    width: 375px;
+    height: 1261px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .service .serviceHeader {
+    width: 344px;
+    height: 163px;
+    margin-bottom: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .service .serviceHeader h2 {
+    font-size: 28px;
+  }
+  .service .serviceHeader h2 span {
+    color: #00730c;
+  }
+  .service .serviceHeader p {
+    font-size: 14px;
+    color: #676767;
+  }
+  .service .serviceBottom {
+    width: 344px;
+    height: 1068px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .service .serviceBottom div {
+    width: 345px;
+    height: 116px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .service .serviceBottom div:hover {
+    background-color: #00730c;
+    color: white;
+  }
+  .service .serviceBottom div:hover img {
+    filter: brightness(0) invert(1);
+  }
+  .service .serviceBottom div div {
+    width: 305px;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .service .serviceBottom div div img {
+    width: 50px;
+    height: 50px;
+  }
+  .service .serviceBottom div div div {
+    width: 235px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .service .serviceBottom div div div p {
+    font-size: 14px;
+    width: 235px;
+    height: 44px;
+    text-align: start;
+  }
+  .service .serviceBottom div div div h2 {
+    font-size: 16px;
+    width: 100px;
+    height: 22px;
+    text-align: start;
   }
 }
 @media (min-width: 1410px) {
@@ -124,7 +281,7 @@
     font-size: 14px;
   }
   .header .up-board .container .row .email {
-    width: 281px;
+    width: 245px;
     height: 25px;
     display: flex;
     justify-content: space-between;
@@ -136,7 +293,7 @@
     justify-content: space-between;
   }
   .header .up-board .container .row .adress {
-    width: 268px;
+    width: 250px;
     height: 25px;
     display: flex;
     justify-content: space-between;
@@ -179,12 +336,12 @@
     font-size: 16px;
   }
   .down-board .row-2 .navAndCall .nav li:hover {
-    color: #00730C;
+    color: #00730c;
   }
   .down-board .row-2 .navAndCall .callUs {
     width: 170px;
     height: 50px;
-    background-color: #00730C;
+    background-color: #00730c;
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -202,16 +359,163 @@
   .hero {
     width: 1410px;
     height: 719px;
-    background: linear-gradient(to right, rgb(98, 221, 98), white 80%);
+    background: var(--main-gradient-1-color, linear-gradient(80deg, rgba(0, 115, 12, 0.81) -39.14%, rgba(251, 246, 238, 0) 90.23%));
     display: flex;
-    align-items: end;
+    align-items: center;
+    margin-bottom: 100px;
   }
-  .hero .landscape {
-    width: 600px;
+  .hero .container_2 {
+    width: 48%;
     height: 486px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: end;
   }
-  .hero .foto-hero {
-    width: 800px;
-    height: 619px;
+  .hero .container_2 .hero-imfo {
+    width: 80%;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .hero .container_2 .hero-imfo .logo {
+    width: 100%;
+    height: 278px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .hero .container_2 .hero-imfo .logo .plant {
+    display: flex;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .hero .container_2 .hero-imfo .logo .perfect {
+    font-size: 58px;
+  }
+  .hero .container_2 .hero-imfo .logo .perfect span {
+    color: #00730c;
+  }
+  .hero .container_2 .hero-imfo .logo .info {
+    color: #676767;
+    font-size: 18px;
+  }
+  .hero .container_2 .hero-imfo .tooButton {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+  }
+  .hero .container_2 .hero-imfo .tooButton .quate {
+    width: 175px;
+    height: 50px;
+    background-color: #00730c;
+    color: white;
+    border-radius: 5px;
+  }
+  .hero .container_2 .hero-imfo .tooButton .itworks {
+    width: 177px;
+    font-size: 18px;
+    color: #676767;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .hero .container_2 .hero-imfo .thriDott {
+    display: flex;
+    gap: 10px;
+  }
+  .hero .container_2 .hero-imfo .thriDott div {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: linear-gradient(73deg, #00730C -83.5%, #F9F9F9 93.84%);
+  }
+  .hero .container_2 .hero-imfo .thriDott p {
+    width: 89px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+  }
+  .service {
+    width: 1410px;
+    height: 963px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .service .serviceHeader {
+    width: 1136px;
+    height: 151px;
+    margin-bottom: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .service .serviceHeader h2 {
+    font-size: 45px;
+  }
+  .service .serviceHeader h2 span {
+    color: #00730c;
+  }
+  .service .serviceHeader p {
+    font-size: 18px;
+    height: 60px;
+    width: 1136px;
+    line-height: 30px;
+    color: #676767;
+  }
+  .service .serviceBottom {
+    width: 1410px;
+    height: 762px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .service .serviceBottom div {
+    width: 330px;
+    height: 366px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .service .serviceBottom div:hover {
+    background-color: #00730c;
+    color: white;
+  }
+  .service .serviceBottom div:hover img {
+    filter: brightness(0) invert(1);
+  }
+  .service .serviceBottom div div {
+    width: 243px;
+    height: 247px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .service .serviceBottom div div img {
+    margin-bottom: 30px;
+  }
+  .service .serviceBottom div div div {
+    width: 243px;
+    height: 127px;
+    display: flex;
+    flex-direction: column;
+  }
+  .service .serviceBottom div div div p {
+    font-size: 16px;
+    width: 243px;
+    text-align: center;
+  }
+  .service .serviceBottom div div div h2 {
+    width: 100%;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
   }
 }/*# sourceMappingURL=style.css.map */
